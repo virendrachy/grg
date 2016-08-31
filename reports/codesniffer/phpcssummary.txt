@@ -1,0 +1,25 @@
+
+PHP CODE SNIFFER VIOLATION SOURCE SUMMARY
+----------------------------------------------------------------------
+    SOURCE                                                       COUNT
+----------------------------------------------------------------------
+[x] PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracke  8
+[x] Squiz.WhiteSpace.SuperfluousWhitespace.EndLine               8
+[ ] Generic.CodeAnalysis.UnusedFunctionParameter.Found           8
+[x] PEAR.Functions.FunctionCallSignature.CloseBracketLine        7
+[x] PSR2.Classes.ClassDeclaration.CloseBraceAfterBody            5
+[x] PEAR.Functions.FunctionDeclaration.SpaceAfterFunction        4
+[ ] Generic.CodeAnalysis.UselessOverridingMethod.Found           4
+[x] PEAR.Functions.FunctionCallSignature.Indent                  3
+[ ] Generic.Files.LineLength.TooLong                             2
+[x] PEAR.Functions.FunctionDeclaration.BraceOnSameLine           1
+[x] PSR2.Classes.ClassDeclaration.OpenBraceNotAlone              1
+[x] PSR2.Files.EndFileNewline.NoneFound                          1
+----------------------------------------------------------------------
+A TOTAL OF 52 SNIFF VIOLATIONS WERE FOUND IN 12 SOURCES
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 9 MARKED SOURCES AUTOMATICALLY (38 VIOLATIONS IN TOTAL)
+----------------------------------------------------------------------
+
+Time: 291ms; Memory: 9.75Mb
+

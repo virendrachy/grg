@@ -1,0 +1,10 @@
+
+/var/www/html/bloglaravel/app/Console/Kernel.php:25	Avoid unused parameters such as '$schedule'.
+/var/www/html/bloglaravel/app/Exceptions/Handler.php:34	Avoid variables with short names like $e. Configured minimum length is 3.
+/var/www/html/bloglaravel/app/Exceptions/Handler.php:46	Avoid variables with short names like $e. Configured minimum length is 3.
+/var/www/html/bloglaravel/app/Http/Controllers/CommentController.php:60	Avoid variables with short names like $id. Configured minimum length is 3.
+/var/www/html/bloglaravel/app/Http/Controllers/CommentController.php:81	Avoid variables with short names like $id. Configured minimum length is 3.
+/var/www/html/bloglaravel/app/Http/Controllers/CommentController.php:101	Avoid variables with short names like $id. Configured minimum length is 3.
+/var/www/html/bloglaravel/app/Http/Controllers/PostController.php:159	Avoid variables with short names like $id. Configured minimum length is 3.
+/var/www/html/bloglaravel/app/Http/Controllers/PostController.php:180	Avoid variables with short names like $id. Configured minimum length is 3.
+/var/www/html/bloglaravel/app/Http/Controllers/PostController.php:200	Avoid variables with short names like $id. Configured minimum length is 3.

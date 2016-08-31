@@ -1,0 +1,26 @@
+.post-list{    
+    width:100%;
+    padding:5px 0;
+}
+.post-list td{
+    padding:5px;
+}
+.post-list .title {    
+    width: 20%;    
+}
+
+.post-list .date {    
+    width: 15%;
+    
+}
+a
+.post-list .detail {    
+
+}
+
+.post-list .link-active {      
+    width: 10%;    
+}
+.post-list .link-delete {    
+    width: 10%;
+}

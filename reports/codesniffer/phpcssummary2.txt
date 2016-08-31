@@ -1,0 +1,242 @@
+
+FILE: ...var/www/html/bloglaravel/app/Http/Controllers/PostController.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AND 5 WARNINGS AFFECTING 8 LINES
+----------------------------------------------------------------------
+  20 | WARNING | [ ] Line exceeds 100 characters; contains 134
+     |         |     characters (Generic.Files.LineLength.TooLong)
+  41 | WARNING | [ ] The method parameter $request is never used
+     |         |     (Generic.CodeAnalysis.UnusedFunctionParameter.Found)
+  56 | ERROR   | [x] Whitespace found at end of line
+     |         |     (Squiz.WhiteSpace.SuperfluousWhitespace.EndLine)
+ 115 | ERROR   | [x] Multi-line function call not indented correctly;
+     |         |     expected 12 spaces but found 16
+     |         |     (PEAR.Functions.FunctionCallSignature.Indent)
+ 152 | WARNING | [ ] The method parameter $request is never used
+     |         |     (Generic.CodeAnalysis.UnusedFunctionParameter.Found)
+ 169 | WARNING | [ ] The method parameter $request is never used
+     |         |     (Generic.CodeAnalysis.UnusedFunctionParameter.Found)
+ 185 | WARNING | [ ] The method parameter $request is never used
+     |         |     (Generic.CodeAnalysis.UnusedFunctionParameter.Found)
+ 193 | ERROR   | [x] The closing brace for the class must go on the next
+     |         |     line after the body
+     |         |     (PSR2.Classes.ClassDeclaration.CloseBraceAfterBody)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ww/html/bloglaravel/app/Http/Controllers/Auth/AuthController.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+----------------------------------------------------------------------
+ 51 | ERROR | [x] Opening parenthesis of a multi-line function call must
+    |       |     be the last content on the line
+    |       |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+ 55 | ERROR | [x] Closing parenthesis of a multi-line function call must
+    |       |     be on a line by itself
+    |       |     (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+ 66 | ERROR | [x] Opening parenthesis of a multi-line function call must
+    |       |     be the last content on the line
+    |       |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+ 70 | ERROR | [x] Closing parenthesis of a multi-line function call must
+    |       |     be on a line by itself
+    |       |     (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: .../www/html/bloglaravel/app/Http/Controllers/CommentController.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AND 3 WARNINGS AFFECTING 4 LINES
+----------------------------------------------------------------------
+ 25 | ERROR   | [x] Opening parenthesis of a multi-line function call
+    |         |     must be the last content on the line
+    |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+ 57 | WARNING | [ ] The method parameter $request is never used
+    |         |     (Generic.CodeAnalysis.UnusedFunctionParameter.Found)
+ 73 | WARNING | [ ] The method parameter $request is never used
+    |         |     (Generic.CodeAnalysis.UnusedFunctionParameter.Found)
+ 89 | WARNING | [ ] The method parameter $request is never used
+    |         |     (Generic.CodeAnalysis.UnusedFunctionParameter.Found)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...var/www/html/bloglaravel/app/Http/Controllers/UserController.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AND 1 WARNING AFFECTING 3 LINES
+----------------------------------------------------------------------
+ 30 | WARNING | [ ] The method parameter $request is never used
+    |         |     (Generic.CodeAnalysis.UnusedFunctionParameter.Found)
+ 46 | ERROR   | [x] Multi-line function call not indented correctly;
+    |         |     expected 12 spaces but found 16
+    |         |     (PEAR.Functions.FunctionCallSignature.Indent)
+ 63 | ERROR   | [x] The closing brace for the class must go on the next
+    |         |     line after the body
+    |         |     (PSR2.Classes.ClassDeclaration.CloseBraceAfterBody)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/html/bloglaravel/app/Http/Middleware/Author.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 27 | ERROR | [x] The closing brace for the class must go on the next
+    |       |     line after the body
+    |       |     (PSR2.Classes.ClassDeclaration.CloseBraceAfterBody)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/html/bloglaravel/app/Http/Middleware/Admin.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 27 | ERROR | [x] The closing brace for the class must go on the next
+    |       |     line after the body
+    |       |     (PSR2.Classes.ClassDeclaration.CloseBraceAfterBody)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/html/bloglaravel/app/Http/routes.php
+----------------------------------------------------------------------
+FOUND 10 ERRORS AND 1 WARNING AFFECTING 7 LINES
+----------------------------------------------------------------------
+ 20 | WARNING | [ ] Line exceeds 100 characters; contains 115
+    |         |     characters (Generic.Files.LineLength.TooLong)
+ 22 | ERROR   | [x] Opening parenthesis of a multi-line function call
+    |         |     must be the last content on the line
+    |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+ 22 | ERROR   | [x] Expected 1 space after FUNCTION keyword; 0 found
+    |         |     (PEAR.Functions.FunctionDeclaration.SpaceAfterFunction)
+ 35 | ERROR   | [x] Closing parenthesis of a multi-line function call
+    |         |     must be on a line by itself
+    |         |     (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+ 37 | ERROR   | [x] Opening parenthesis of a multi-line function call
+    |         |     must be the last content on the line
+    |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+ 37 | ERROR   | [x] Expected 1 space after FUNCTION keyword; 0 found
+    |         |     (PEAR.Functions.FunctionDeclaration.SpaceAfterFunction)
+ 42 | ERROR   | [x] Closing parenthesis of a multi-line function call
+    |         |     must be on a line by itself
+    |         |     (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+ 44 | ERROR   | [x] Opening parenthesis of a multi-line function call
+    |         |     must be the last content on the line
+    |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+ 44 | ERROR   | [x] Expected 1 space after FUNCTION keyword; 0 found
+    |         |     (PEAR.Functions.FunctionDeclaration.SpaceAfterFunction)
+ 46 | ERROR   | [x] Closing parenthesis of a multi-line function call
+    |         |     must be on a line by itself
+    |         |     (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+ 46 | ERROR   | [x] Expected 1 newline at end of file; 0 found
+    |         |     (PSR2.Files.EndFileNewline.NoneFound)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 10 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/html/bloglaravel/app/Post.php
+----------------------------------------------------------------------
+FOUND 9 ERRORS AFFECTING 6 LINES
+----------------------------------------------------------------------
+  8 | ERROR | [x] Opening class brace must be on a line by itself
+    |       |     (PSR2.Classes.ClassDeclaration.OpenBraceNotAlone)
+  8 | ERROR | [x] Whitespace found at end of line
+    |       |     (Squiz.WhiteSpace.SuperfluousWhitespace.EndLine)
+  9 | ERROR | [x] Whitespace found at end of line
+    |       |     (Squiz.WhiteSpace.SuperfluousWhitespace.EndLine)
+ 21 | ERROR | [x] Whitespace found at end of line
+    |       |     (Squiz.WhiteSpace.SuperfluousWhitespace.EndLine)
+ 23 | ERROR | [x] Opening brace should be on a new line
+    |       |     (PEAR.Functions.FunctionDeclaration.BraceOnSameLine)
+ 26 | ERROR | [x] Opening parenthesis of a multi-line function call must
+    |       |     be the last content on the line
+    |       |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+ 26 | ERROR | [x] Expected 1 space after FUNCTION keyword; 0 found
+    |       |     (PEAR.Functions.FunctionDeclaration.SpaceAfterFunction)
+ 26 | ERROR | [x] Whitespace found at end of line
+    |       |     (Squiz.WhiteSpace.SuperfluousWhitespace.EndLine)
+ 28 | ERROR | [x] Closing parenthesis of a multi-line function call must
+    |       |     be on a line by itself
+    |       |     (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 9 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/html/bloglaravel/app/Comment.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 10 | ERROR | [x] Whitespace found at end of line
+    |       |     (Squiz.WhiteSpace.SuperfluousWhitespace.EndLine)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/html/bloglaravel/app/Exceptions/Handler.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 2 WARNINGS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 34 | WARNING | Possible useless method overriding detected
+    |         | (Generic.CodeAnalysis.UselessOverridingMethod.Found)
+ 46 | WARNING | Possible useless method overriding detected
+    |         | (Generic.CodeAnalysis.UselessOverridingMethod.Found)
+----------------------------------------------------------------------
+
+
+FILE: /var/www/html/bloglaravel/app/Providers/RouteServiceProvider.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AND 1 WARNING AFFECTING 4 LINES
+----------------------------------------------------------------------
+ 25 | WARNING | [ ] Possible useless method overriding detected
+    |         |     (Generic.CodeAnalysis.UselessOverridingMethod.Found)
+ 55 | ERROR   | [x] Opening parenthesis of a multi-line function call
+    |         |     must be the last content on the line
+    |         |     (PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket)
+ 57 | ERROR   | [x] Multi-line function call not indented correctly;
+    |         |     expected 12 spaces but found 8
+    |         |     (PEAR.Functions.FunctionCallSignature.Indent)
+ 59 | ERROR   | [x] Closing parenthesis of a multi-line function call
+    |         |     must be on a line by itself
+    |         |     (PEAR.Functions.FunctionCallSignature.CloseBracketLine)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/html/bloglaravel/app/Providers/EventServiceProvider.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 27 | WARNING | Possible useless method overriding detected
+    |         | (Generic.CodeAnalysis.UselessOverridingMethod.Found)
+----------------------------------------------------------------------
+
+
+FILE: /var/www/html/bloglaravel/app/User.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+----------------------------------------------------------------------
+ 49 | ERROR | [x] Whitespace found at end of line
+    |       |     (Squiz.WhiteSpace.SuperfluousWhitespace.EndLine)
+ 59 | ERROR | [x] Whitespace found at end of line
+    |       |     (Squiz.WhiteSpace.SuperfluousWhitespace.EndLine)
+ 70 | ERROR | [x] The closing brace for the class must go on the next
+    |       |     line after the body
+    |       |     (PSR2.Classes.ClassDeclaration.CloseBraceAfterBody)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 288ms; Memory: 9.75Mb
+

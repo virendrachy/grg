@@ -1,0 +1,167 @@
+
+FILE: ...var/www/html/bloglaravel/app/Http/Controllers/PostController.php
+----------------------------------------------------------------------
+FOUND 5 ERRORS AND 3 WARNINGS AFFECTING 8 LINES
+----------------------------------------------------------------------
+  20 | WARNING | [ ] Line exceeds 100 characters; contains 134
+     |         |     characters
+  59 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+  64 | ERROR   | [x] Multi-line function call not indented correctly;
+     |         |     expected 8 spaces but found 12
+ 117 | WARNING | [ ] Function's cyclomatic complexity (4) exceeds 3;
+     |         |     consider refactoring the function
+ 120 | ERROR   | [x] Opening parenthesis of a multi-line function
+     |         |     call must be the last content on the line
+ 124 | ERROR   | [x] Closing parenthesis of a multi-line function
+     |         |     call must be on a line by itself
+ 134 | WARNING | [ ] Line exceeds 100 characters; contains 109
+     |         |     characters
+ 212 | ERROR   | [x] The closing brace for the class must go on the
+     |         |     next line after the body
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 5 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ww/html/bloglaravel/app/Http/Controllers/Auth/AuthController.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+----------------------------------------------------------------------
+ 51 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 55 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+ 66 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 70 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: .../www/html/bloglaravel/app/Http/Controllers/CommentController.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+----------------------------------------------------------------------
+  25 | ERROR | [x] Opening parenthesis of a multi-line function call
+     |       |     must be the last content on the line
+  27 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 113 | ERROR | [x] The closing brace for the class must go on the
+     |       |     next line after the body
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/html/bloglaravel/app/Http/Middleware/Admin.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 22 | ERROR | [x] Whitespace found at end of line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/html/bloglaravel/app/Http/routes.php
+----------------------------------------------------------------------
+FOUND 8 ERRORS AND 1 WARNING AFFECTING 6 LINES
+----------------------------------------------------------------------
+ 20 | WARNING | [ ] Line exceeds 100 characters; contains 115
+    |         |     characters
+ 22 | ERROR   | [x] Opening parenthesis of a multi-line function call
+    |         |     must be the last content on the line
+ 22 | ERROR   | [x] Expected 1 space after FUNCTION keyword; 0 found
+ 31 | ERROR   | [x] Whitespace found at end of line
+ 36 | ERROR   | [x] Closing parenthesis of a multi-line function call
+    |         |     must be on a line by itself
+ 38 | ERROR   | [x] Opening parenthesis of a multi-line function call
+    |         |     must be the last content on the line
+ 38 | ERROR   | [x] Expected 1 space after FUNCTION keyword; 0 found
+ 40 | ERROR   | [x] Closing parenthesis of a multi-line function call
+    |         |     must be on a line by itself
+ 40 | ERROR   | [x] Expected 1 blank line at end of file; 2 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 8 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/html/bloglaravel/app/Post.php
+----------------------------------------------------------------------
+FOUND 9 ERRORS AFFECTING 6 LINES
+----------------------------------------------------------------------
+  8 | ERROR | [x] Opening class brace must be on a line by itself
+  8 | ERROR | [x] Whitespace found at end of line
+  9 | ERROR | [x] Whitespace found at end of line
+ 21 | ERROR | [x] Whitespace found at end of line
+ 23 | ERROR | [x] Opening brace should be on a new line
+ 26 | ERROR | [x] Opening parenthesis of a multi-line function call
+    |       |     must be the last content on the line
+ 26 | ERROR | [x] Expected 1 space after FUNCTION keyword; 0 found
+ 26 | ERROR | [x] Whitespace found at end of line
+ 28 | ERROR | [x] Closing parenthesis of a multi-line function call
+    |       |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 9 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/html/bloglaravel/app/Comment.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 10 | ERROR | [x] Whitespace found at end of line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/html/bloglaravel/app/Exceptions/Handler.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 2 WARNINGS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 34 | WARNING | Possible useless method overriding detected
+ 46 | WARNING | Possible useless method overriding detected
+----------------------------------------------------------------------
+
+
+FILE: /var/www/html/bloglaravel/app/Providers/RouteServiceProvider.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AND 1 WARNING AFFECTING 4 LINES
+----------------------------------------------------------------------
+ 25 | WARNING | [ ] Possible useless method overriding detected
+ 55 | ERROR   | [x] Opening parenthesis of a multi-line function call
+    |         |     must be the last content on the line
+ 57 | ERROR   | [x] Multi-line function call not indented correctly;
+    |         |     expected 12 spaces but found 8
+ 59 | ERROR   | [x] Closing parenthesis of a multi-line function call
+    |         |     must be on a line by itself
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/html/bloglaravel/app/Providers/EventServiceProvider.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 27 | WARNING | Possible useless method overriding detected
+----------------------------------------------------------------------
+
+
+FILE: /var/www/html/bloglaravel/app/User.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 49 | ERROR | [x] Whitespace found at end of line
+ 60 | ERROR | [x] The closing brace for the class must go on the next
+    |       |     line after the body
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 276ms; Memory: 10Mb
+
